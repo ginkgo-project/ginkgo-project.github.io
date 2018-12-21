@@ -1,10 +1,194 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
-    <title>Ginkgo Home</title>
-  </head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Ginkgo</title>
+
+  <link rel="stylesheet" href="/css/main.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.js"></script>
+</head>
+
+
   <body>
-    <h1>Ginkgo Homepage</h1>
+
+    
+<nav class="navbar navbar-expand-xl navbar-dark bg-ginkgo-orange-2">
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navbarsExampleDefault"
+		aria-controls="navbarsExampleDefault" aria-expanded="false"
+		aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<a class="navbar-brand" href="#"><img src="
+		img/ginkgo-1-textonly.png" style="height: 2rem; display: block; margin-left: auto; margin-right: auto;"></a>
+	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item"><a class="text-ginkgo-grey-1 nav-link"
+				href=" index.html">Home</a></li>
+			<li class="nav-item"><a class="text-ginkgo-grey-1 nav-link"
+				href=" https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/Articles/Blog/GinkgoSustainableSoftwareInAnAcademicEnvironment.md">About</a></li>
+			<li class="nav-item"><a class="text-ginkgo-grey-1 nav-link"
+				href="https://github.com/ginkgo-project/ginkgo/releases"
+				target="_blank">Releases</a></li>
+			<li class="nav-item"><a class="text-ginkgo-grey-1 nav-link"
+				href="https://ginkgo-project.github.io/ginkgo/doc/develop/"
+				target="_blank">Documentation</a></li>
+			<li class="nav-item"><a class="text-ginkgo-grey-1 nav-link"
+				href="https://github.com/ginkgo-project/outreach"
+				target="_blank">Publications</a></li>
+			<li class="nav-item"><a class="text-ginkgo-grey-1 nav-link"
+				href="https://github.com/ginkgo-project/ginkgo/graphs/contributors"
+				target="_blank">Contributers</a></li>
+		</ul>
+	</div>
+</nav>
+
+
+    
+    <main role="main"> <!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+	<div class="container">
+		<h1 class="display-3"><img style="width: 35%" class="img-fluid" src="
+		img/ginkgo-1-horizontal.png"></h1>
+		<p>Ginkgo is a high-performance linear algebra library for
+			manycore systems, with a focus on sparse solution of linear systems.
+			It is implemented using modern C++ (you will need at least C++11
+			compliant compiler to build it), with GPU kernels implemented in
+			CUDA.</p>
+		<p>
+			<a class="btn btn-ginkgo-orange-1 btn-lg"
+				href="https://github.com/ginkgo-project/ginkgo" role="button">Get
+				Ginkgo</a>
+		</p>
+	</div>
+</div>
+
+<div class="container-fluid">
+
+	<div class="row row-margin">
+
+		<div class="col-md-4">
+			<div class="card">
+				<div class="card-body">
+					<h2>Tutorials</h2>
+					<p>Check out some tutorials.</p>
+					<p>
+						<a class="btn btn-ginkgo-orange-1"
+							href="https://github.com/ginkgo-project/ginkgo/wiki/Tutorial:-Building-a-2D-Poisson-Solver"
+							target="_blank">Tutorials</a>
+					</p>
+
+				</div>
+			</div>
+		</div>
+		
+				<div class="col-md-4">
+			<div class="card">
+				<div class="card-body">
+					<h2>Get Involved</h2>
+					<p>Discuss library features, issues, and extensions.</p>
+					<p>
+						<a class="btn btn-ginkgo-orange-1"
+							href="https://github.com/ginkgo-project/ginkgo/issues"
+							target="_blank">Get Involved</a>
+					</p>
+
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+				<div class="col-md-4">
+			<div class="card">
+				<div class="card-body">
+					<h2>Cross Platform</h2>
+					<p>Ginkgo supports execution on CUDA accelerators and OpenMP-enabled devices.</p>
+					<p>
+						<a class="btn btn-ginkgo-orange-1"
+							href="https://ginkgo-project.github.io/ginkgo/doc/develop/"
+							target="_blank">Cross Platform</a>
+					</p>
+
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="col-md-4">
+			<div class="card">
+				<div class="card-body">
+					<h2>Collaborative Effort</h2>
+					<p>Collaborative open-source effort with a permissive license.</p>
+					<p>
+						<a class="btn btn-ginkgo-orange-1"
+							href="https://github.com/ginkgo-project/ginkgo/blob/develop/LICENSE"
+							target="_blank">Show License</a>
+					</p>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-4">
+			<div class="card">
+				<div class="card-body">
+					<h2>High Performance</h2>
+					<p>Competitive performance on state-of-the-art hardware architectures.</p>
+					<p>
+						<a class="btn btn-ginkgo-orange-1"
+							href="https://ginkgo-project.github.io/gpe/"
+							target="_blank">Performance Explorer</a>
+					</p>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-4">
+			<div class="card">
+				<div class="card-body">
+					<h2>Extensibility</h2>
+					<p>Easily integrate new solvers, matrix formats, loggers, stopping criteria for your application.</p>
+					<p>
+						<a class="btn btn-ginkgo-orange-1"
+							href="https://github.com/ginkgo-project/ginkgo/wiki/Tutorial-9:-Customize:-Loggers"
+							target="_blank">Show Tutorial</a>
+					</p>
+
+				</div>
+			</div>
+		</div>
+		
+		
+		
+	</div>
+
+<div class="row justify-content-md-center">
+					<div class="col-md-auto">
+					<a href="http://www.kit.edu/index.php"><img style="height: 5rem; margin: 0 1rem" class="img-fluid" src="
+		img/kit.jpg"></a>
+					<a href="https://www.utk.edu/"><img style="height: 5rem; margin: 0 1rem" class="img-fluid" src="
+		img/utk.png"></a>
+					<a href="https://www.uji.es/"><img style="height: 5rem; margin: 0 1rem" class="img-fluid" src="
+		img/uji.png"></a>
+					</div>
+					</div>
+
+</div>
+<!-- /container --> </main>
+
+
+
+    
+
   </body>
+
 </html>
