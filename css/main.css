@@ -7287,3 +7287,9 @@ a.text-ginkgo-grey-3:hover, a.text-ginkgo-grey-3:focus {
 
 .row-margin > div {
   margin-bottom: 1rem; }
+
+.row-logos img {
+  height: 5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 3rem; }
